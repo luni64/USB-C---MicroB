@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Connectorss)(type KiCad)(uri ${KICAD_USER_LIBRARY}/footprints/Connectors)(options "")(descr ""))
+  (lib (name teensy)(type KiCad)(uri ${KICAD_USER_LIBRARY}/footprints/teensy.pretty)(options "")(descr ""))
+  (lib (name "USB_C adapter")(type KiCad)(uri "C:/Users/lutz/Google Drive/10 lunOptics/50 Projekte/USB_C adapter")(options "")(descr ""))
+)

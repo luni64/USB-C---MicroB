@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name USB4085-GF-A_REVA)(type Legacy)(uri ${KICAD_USER_LIBRARY}/symbols/Connectors/USB4085-GF-A_REVA.lib)(options "")(descr ""))
+  (lib (name TeensyDIY)(type Legacy)(uri ${KICAD_USER_LIBRARY}/symbols/Teensy/TeensyDIY.lib)(options "")(descr ""))
+  (lib (name USB3150-30-130-A)(type Legacy)(uri ${KICAD_USER_LIBRARY}/symbols/Connectors/USB3150-30-130-A.lib)(options "")(descr ""))
+  (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KICAD_USER_LIBRARY}/symbols/Connectors/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+)

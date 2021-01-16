@@ -1,0 +1,343 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB3150-30-130-A:USB3150-30-130-A J4
+U 1 1 5FECA414
+P 6775 3300
+F 0 "J4" H 7005 3346 50  0000 L CNN
+F 1 "USB3150-30-130-A" H 7005 3255 50  0000 L CNN
+F 2 "Connectorss:GCT_USB3150-30-130-A" H 6775 3300 50  0001 L BNN
+F 3 "" H 6775 3300 50  0001 L BNN
+F 4 "A2" H 6775 3300 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer recommendations" H 6775 3300 50  0001 L BNN "STANDARD"
+F 6 "7.23mm" H 6775 3300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "GCT" H 6775 3300 50  0001 L BNN "MANUFACTURER"
+	1    6775 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:DX07S024WJ3R400 J1
+U 1 1 5FECF8A4
+P 4350 3250
+F 0 "J1" H 4350 4285 50  0000 C CNN
+F 1 "DX07S024WJ3R400" H 4350 4194 50  0000 C CNN
+F 2 "Connectorss:USB-C_Female_Vert_DX07S024WJ3R400" H 4550 3450 60  0001 L CNN
+F 3 "https://www.jae.com/direct/topics/topics_file_download/topics_id=66513&ext_no=06&index=1&_lang=en" H 4550 3550 60  0001 L CNN
+F 4 "670-2950-1-ND" H 4550 3650 60  0001 L CNN "Digi-Key_PN"
+F 5 "DX07S024WJ3R400" H 4550 3750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4550 3850 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 4550 3950 60  0001 L CNN "Family"
+F 8 "https://www.jae.com/direct/topics/topics_file_download/topics_id=66513&ext_no=06&index=1&_lang=en" H 4550 4050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jae-electronics/DX07S024WJ3R400/670-2950-1-ND/6594046" H 4550 4150 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB3.1 TYPEC 24POS SMD" H 4550 4250 60  0001 L CNN "Description"
+F 11 "JAE Electronics" H 4550 4350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4550 4450 60  0001 L CNN "Status"
+	1    4350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J2
+U 1 1 5FEDC9A3
+P 3775 4750
+F 0 "J2" H 3825 4700 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 3825 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 3775 4750 50  0001 C CNN
+F 3 "~" H 3775 4750 50  0001 C CNN
+	1    3775 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 5FEDD18C
+P 4925 4750
+F 0 "J3" H 4975 4700 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 4950 4425 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 4925 4750 50  0001 C CNN
+F 3 "~" H 4925 4750 50  0001 C CNN
+	1    4925 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FEE686F
+P 4250 4900
+F 0 "R1" H 4309 4946 50  0000 L CNN
+F 1 "5k1" H 4309 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 4900 50  0001 C CNN
+F 3 "~" H 4250 4900 50  0001 C CNN
+	1    4250 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5FEE79E0
+P 4450 4900
+F 0 "R2" H 4509 4946 50  0000 L CNN
+F 1 "5k1" H 4509 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 4900 50  0001 C CNN
+F 3 "~" H 4450 4900 50  0001 C CNN
+	1    4450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 4750 4725 4850
+Wire Wire Line
+	5225 4750 5225 4850
+$Comp
+L power:GND #PWR0101
+U 1 1 5FEA333D
+P 5225 4950
+F 0 "#PWR0101" H 5225 4700 50  0001 C CNN
+F 1 "GND" H 5230 4777 50  0000 C CNN
+F 2 "" H 5225 4950 50  0001 C CNN
+F 3 "" H 5225 4950 50  0001 C CNN
+	1    5225 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 4950 5225 4850
+Connection ~ 5225 4850
+$Comp
+L power:VBUS #PWR0102
+U 1 1 5FEA442B
+P 3475 4675
+F 0 "#PWR0102" H 3475 4525 50  0001 C CNN
+F 1 "VBUS" H 3600 4775 50  0000 C CNN
+F 2 "" H 3475 4675 50  0001 C CNN
+F 3 "" H 3475 4675 50  0001 C CNN
+	1    3475 4675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 4750 3475 4850
+Wire Wire Line
+	3975 4750 3975 4850
+Wire Wire Line
+	3475 4675 3475 4750
+Connection ~ 3475 4750
+Wire Wire Line
+	4250 5000 4250 5075
+Wire Wire Line
+	4250 5075 4350 5075
+Wire Wire Line
+	4450 5075 4450 5000
+$Comp
+L power:GND #PWR0103
+U 1 1 5FEAB748
+P 4350 5075
+F 0 "#PWR0103" H 4350 4825 50  0001 C CNN
+F 1 "GND" H 4355 4902 50  0000 C CNN
+F 2 "" H 4350 5075 50  0001 C CNN
+F 3 "" H 4350 5075 50  0001 C CNN
+	1    4350 5075
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 5075
+Wire Wire Line
+	4350 5075 4450 5075
+Wire Wire Line
+	3975 4750 4250 4750
+Wire Wire Line
+	4250 4750 4250 4800
+Connection ~ 3975 4750
+Wire Wire Line
+	4450 4800 4450 4750
+Wire Wire Line
+	4450 4750 4725 4750
+Connection ~ 4725 4750
+Wire Wire Line
+	4250 4750 4250 4500
+Wire Wire Line
+	4250 4500 3350 4500
+Connection ~ 4250 4750
+Wire Wire Line
+	5350 4500 4450 4500
+Wire Wire Line
+	4450 4500 4450 4750
+$Comp
+L power:GND #PWR0104
+U 1 1 5FEC6CF8
+P 4150 4200
+F 0 "#PWR0104" H 4150 3950 50  0001 C CNN
+F 1 "GND" H 4155 4027 50  0000 C CNN
+F 2 "" H 4150 4200 50  0001 C CNN
+F 3 "" H 4150 4200 50  0001 C CNN
+	1    4150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FEC72F7
+P 6275 3650
+F 0 "#PWR0105" H 6275 3400 50  0001 C CNN
+F 1 "GND" H 6280 3477 50  0000 C CNN
+F 2 "" H 6275 3650 50  0001 C CNN
+F 3 "" H 6275 3650 50  0001 C CNN
+	1    6275 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 4750
+$Comp
+L power:GND #PWR0106
+U 1 1 5FEE2786
+P 3850 3800
+F 0 "#PWR0106" H 3850 3550 50  0001 C CNN
+F 1 "GND" V 3855 3672 50  0000 R CNN
+F 2 "" H 3850 3800 50  0001 C CNN
+F 3 "" H 3850 3800 50  0001 C CNN
+	1    3850 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FEE2D5C
+P 4850 3800
+F 0 "#PWR0107" H 4850 3550 50  0001 C CNN
+F 1 "GND" V 4855 3672 50  0000 R CNN
+F 2 "" H 4850 3800 50  0001 C CNN
+F 3 "" H 4850 3800 50  0001 C CNN
+	1    4850 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FEE8776
+P 4850 2700
+F 0 "#PWR0108" H 4850 2450 50  0001 C CNN
+F 1 "GND" V 4850 2575 50  0000 R CNN
+F 2 "" H 4850 2700 50  0001 C CNN
+F 3 "" H 4850 2700 50  0001 C CNN
+	1    4850 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5FEE8CC4
+P 3850 2700
+F 0 "#PWR0109" H 3850 2450 50  0001 C CNN
+F 1 "GND" V 3850 2575 50  0000 R CNN
+F 2 "" H 3850 2700 50  0001 C CNN
+F 3 "" H 3850 2700 50  0001 C CNN
+	1    3850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR0110
+U 1 1 5FEE923D
+P 4850 3000
+F 0 "#PWR0110" H 4850 2850 50  0001 C CNN
+F 1 "VBUS" V 4850 3200 50  0000 C CNN
+F 2 "" H 4850 3000 50  0001 C CNN
+F 3 "" H 4850 3000 50  0001 C CNN
+	1    4850 3000
+	0    1    -1   0   
+$EndComp
+NoConn ~ 4850 2800
+NoConn ~ 4850 2900
+NoConn ~ 3850 2800
+NoConn ~ 3850 2900
+$Comp
+L power:VBUS #PWR0111
+U 1 1 5FEEB845
+P 3850 3000
+F 0 "#PWR0111" H 3850 2850 50  0001 C CNN
+F 1 "VBUS" V 3850 3200 50  0000 C CNN
+F 2 "" H 3850 3000 50  0001 C CNN
+F 3 "" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4850 3100 5350 3100
+Text Label 5175 3100 0    50   ~ 0
+CC1
+NoConn ~ 3850 3100
+Text GLabel 4850 3200 2    50   Input ~ 0
+DP
+Text GLabel 3850 3200 0    50   Input ~ 0
+DN
+Text GLabel 3850 3300 0    50   Input ~ 0
+DP
+Text GLabel 4850 3300 2    50   Input ~ 0
+DN
+Wire Wire Line
+	5350 3100 5350 4500
+NoConn ~ 4850 3400
+Wire Wire Line
+	3350 3400 3850 3400
+Wire Wire Line
+	3350 3400 3350 4500
+Text Label 3650 3400 2    50   ~ 0
+CC2
+$Comp
+L power:VBUS #PWR0112
+U 1 1 5FEEFE84
+P 4850 3500
+F 0 "#PWR0112" H 4850 3350 50  0001 C CNN
+F 1 "VBUS" V 4850 3700 50  0000 C CNN
+F 2 "" H 4850 3500 50  0001 C CNN
+F 3 "" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:VBUS #PWR0113
+U 1 1 5FEF057F
+P 3850 3500
+F 0 "#PWR0113" H 3850 3350 50  0001 C CNN
+F 1 "VBUS" V 3850 3700 50  0000 C CNN
+F 2 "" H 3850 3500 50  0001 C CNN
+F 3 "" H 3850 3500 50  0001 C CNN
+	1    3850 3500
+	0    -1   1    0   
+$EndComp
+NoConn ~ 4850 3600
+NoConn ~ 4850 3700
+NoConn ~ 3850 3600
+NoConn ~ 3850 3700
+Text GLabel 6375 3100 0    50   Input ~ 0
+DN
+Text GLabel 6375 3200 0    50   Input ~ 0
+DP
+Wire Wire Line
+	6275 3650 6275 3600
+Wire Wire Line
+	6275 3600 6375 3600
+Wire Wire Line
+	6275 3600 6275 3400
+Wire Wire Line
+	6275 3400 6375 3400
+Connection ~ 6275 3600
+$Comp
+L power:VBUS #PWR0114
+U 1 1 5FEF3955
+P 6275 2925
+F 0 "#PWR0114" H 6275 2775 50  0001 C CNN
+F 1 "VBUS" V 6275 3125 50  0000 C CNN
+F 2 "" H 6275 2925 50  0001 C CNN
+F 3 "" H 6275 2925 50  0001 C CNN
+	1    6275 2925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 2925 6275 3000
+Wire Wire Line
+	6275 3000 6375 3000
+Text Label 4250 4625 2    50   ~ 0
+CC2
+Text Label 4450 4625 0    50   ~ 0
+CC1
+$EndSCHEMATC
